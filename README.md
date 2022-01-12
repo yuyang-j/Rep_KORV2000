@@ -8,7 +8,7 @@ To get the labor input data:
  - occ1990_occ1990dd.dta, the crosswalk linking 1990 occupational classification to the occupation code developed in David Dorn's dissertation. 
  
 3. Make sure the following .do files are in the working directory: 
- - Labeling.do, which processes the CPS data and do labeling work
+ - Labeling.do, which processes the CPS data and does labeling work
  - subfile_occ1990dd_occgroups.do,  which aggregates occupations into 6 major groups defined in Autor and Dorn (2013). 
  
 4. execute main_LaborWage.do . The output contains wages and annual labor supply in hours by four occupational classes: abstract, manual, routine and NIU. The last one contains occupations not in the universe of David Dorn's occupation system. 
